@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/"
+>
+
+<channel>
+	<title>AguasNegras</title>
+	<link>http://aguasnegras.es</link>
+	<description>This was not supposed to be like this</description>
+	<pubDate>Sun, 20 Mar 2016 12:41:09 +0000</pubDate>
+	<language>es-ES</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+	<wp:base_site_url>http://aguasnegras.es</wp:base_site_url>
+	<wp:base_blog_url>http://aguasnegras.es</wp:base_blog_url>
+
+	<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[agustinventura]]></wp:author_login><wp:author_email><![CDATA[agustin@aguasnegras.es]]></wp:author_email><wp:author_display_name><![CDATA[Agustín Ventura]]></wp:author_display_name><wp:author_first_name><![CDATA[Agustín]]></wp:author_first_name><wp:author_last_name><![CDATA[Ventura Carrasco]]></wp:author_last_name></wp:author>
+
+
+	<generator>https://wordpress.org/?v=4.4.2</generator>
+
+	<item>
+		<title>OJDBC14.jar y Maven</title>
+		<link>http://aguasnegras.es/?p=6</link>
+		<pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[agustinventura]]></dc:creator>
+		<guid isPermaLink="false">http://aguasnegras.es/wp/?p=3</guid>
+		<description></description>
+		<content:encoded><![CDATA[http://stackoverflow.com/questions/1074869/find-jdbc-driver-in-maven-repository]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>6</wp:post_id>
+		<wp:post_date><![CDATA[2010-11-19 13:04:16]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[]]></wp:post_name>
+		<wp:status><![CDATA[draft]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="programacion"><![CDATA[Programación]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Aprendiendo Ruby on Rails</title>
+		<link>http://aguasnegras.es/?p=9</link>
+		<pubDate>Sat, 13 Nov 2010 16:48:39 +0000</pubDate>
+		<dc:creator><![CDATA[agustinventura]]></dc:creator>
+		<guid isPermaLink="false">http://aguasnegras.es/wp/?p=9</guid>
+		<description></description>
+		<content:encoded><![CDATA[En mi trabajo, uno de los proyectos en los que ando metido es la estandarización de proyectos de desarrollo Java en entorno web, a todos los niveles.
+
+A priori esto parece muy fácil y un trabajo bonito, pero el asunto se complica mucho cuando te das cuenta de la amplitud del trabajo:
+<ul>
+	<li>Definición de herramientas a usar (IDE, gestor de versiones, herramienta de construcción...)</li>
+	<li>Definición de framework de desarrollo (framework MVC, framework ORM, framework IoC...)</li>
+	<li>Definición de estándares de código</li>
+	<li>Formación del personal</li>
+</ul>
+Con ésto no quiero decir que el desarrollo en Java sea demasiado complicado, más bien al revés, el entorno es tan flexible que puedes hacer auténticas maravillas y habitualmente encontrar múltiples soluciones al mismo problema, así que si no puedes aplicar una, te resultará muy sencillo aplicar la otra.
+
+Sin embargo, esto resulta ser muchas veces un engorro, ya que a veces el entorno es demasiado "difuso", dicho de otra manera, se echa de menos tener un entorno de estudio más cerrado en el cual convertirte en un experto (en Java, es muy posible que seas un experto en JPA, pero no en Hibernate... y viceversa, pero claro, ¿para qué lo vas a ser cuando ambas tecnologías sirven para lo mismo?).
+
+Así que he decidido aprender algo nuevo, y después de curiosear y mirar por ahí he decidido darle una oportunidad a Ruby on Rails e ir posteando por aquí mis experiencias.
+
+El tutorial que voy a seguir es este: <a title="railstutorial.org" href="http://railstutorial.org/book" target="_blank">railstutorial.org</a>
+
+No voy a entrar en detalles de por qué Ruby on Rails y no PHP ya que no pretendo que sea una comparativa exhaustiva, sencillamente me ha dado por ahí y ya esta :)]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>9</wp:post_id>
+		<wp:post_date><![CDATA[2010-11-13 16:48:39]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2010-11-13 16:48:39]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[aprendiendo-ruby-on-rails]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="rubyonrails"><![CDATA[Ruby on Rails]]></category>
+		<category domain="post_tag" nicename="rubyonrails"><![CDATA[Ruby on Rails]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Entorno de Ruby on Rails - Parte 1</title>
+		<link>http://aguasnegras.es/?p=11</link>
+		<pubDate>Sat, 13 Nov 2010 19:31:02 +0000</pubDate>
+		<dc:creator><![CDATA[agustinventura]]></dc:creator>
+		<guid isPermaLink="false">http://aguasnegras.es/wp/?p=11</guid>
+		<description></description>
+		<content:encoded><![CDATA[Para seguir el tutorial voy a usar mi viejo buen portátil (tiene ya 6 años), con una Ubuntu 10.04 y el siguiente stack de desarrollo (siguiendo lo recomendado en el tutorial):
+<ul>
+	<li>Editor: gVim (y las extensiones de ruby de vim)</li>
+	<li>Control de versiones: git (apt-get install git-core)</li>
+	<li>Ruby versión 1.8.7</li>
+</ul>
+Y hasta aquí todo bien, no deja de ser todo apt-get install, ahora el tutorial recomienda instalar <a title="Ruby Version Management" href="http://rvm.beginrescueend.com/" target="_blank">RVM (Ruby Version Management)</a>, un gestor de versiones de Ruby. El tema me suena, haciendo un símil con Java, yo puedo estar desarrollando con Java 1.6 pero querer compilar con Java 1.5 (por cuestión de compatibilidad o cualquier motivo), al parecer Ruby tiene una herramienta que gestiona este tipo de cosas... la verdad, tiene buena pinta, vamos a ver.
+
+La instalación es con git (primera toma de contacto):
+<pre>bash &lt; &lt;( curl http://rvm.beginrescueend.com/releases/rvm-install-head )</pre>
+se ejecuta sin problemas y sale un bonito texto dando información varia. Básicamente y según la sección "Postinstall" de la misma página de rvm, hay que añadir una línea al final del .bashrc:
+<pre>[[ -s "$HOME/.rvm/scripts/rvm" ]] &amp;&amp; . "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session</pre>
+Se comprueba si esta funcionando con:
+<pre>type rvm | head -n1</pre>
+Salida, correcta, así que seguimos y nos volvemos al tutorial donde dicen como usar RVM una vez instalado.
+
+Básicamente, según estoy entendiendo, Ruby se distribuye en Gems, que son programas autosuficientes con sus librerías, etc... y con RVM vamos a instalar varios perfiles de ejecución incluyendo sus Gems y vamos a definir uno por defecto.
+
+Asi que nada:
+<pre>rvm install 1.8.7 #instala Ruby 1.8.7
+rvm install 1.9.2 #instala Ruby 1.9.2
+#etiquetamos lo perfiles
+rvm --create 1.8.7@rails2
+rvm --create 1.9.2@rails3
+#usamos rails3 por defecto
+rvm --default use 1.9.2@rails3</pre>
+Por cierto, la compilación de la versiones de Ruby... tarda. O será que mi portátil esta ya bien viejuno.
+
+Una vez hechas todas estas operaciones, me llevo la grata sorpresa de que de propina tenemos instalado RubyGems, un gestor de paquetes de Ruby, para probarlo:
+<pre>which gem</pre>
+Trato de actualizar tal y como dice el manual:
+<pre>gem update --system</pre>
+Y... ¡ZAS!¡En toda la boca!
+<pre>no such file to load -- zlib</pre>
+Y por fín se pone interesante la cosa, veo un post específico para la configuración: <a title="Ruby on Rails 3 and Ubuntu" href="http://toranbillups.com/blog/archive/2010/09/01/How-to-install-Rails-3.0-and-Ruby-1.9.2-on-Ubuntu" target="_blank">How to install Rails 3.0 and Ruby 1.9.2 on Ubuntu</a>, aunque me salto los dos primeros pasos, ya tengo instalado RVM y Ruby 1.8.7... sigo intentando pero nada de nada, sigue diciendo que no hay zlib... vaya. En <a title="Stackoverflow: Ruby and Zlib" href="http://stackoverflow.com/questions/2441248/rvm-ruby-1-9-1-troubles" target="_blank">Stackoverflow</a> leo esto:
+<blockquote>rvm package install zlib
+rvm remove 1.9.1
+rvm install 1.9.1 -C --with-zlib-dir=$rvm_path/usr</blockquote>
+Y en la <a title="RVM y zlib" href="http://rvm.beginrescueend.com/packages/zlib/" target="_blank">referencia de RVM</a> esto:
+<pre>$ rvm package install zlib
+$ rvm remove 1.9.2
+$ rvm install 1.9.2</pre>
+Esto parece más razonable... buf, otra vez a compilar... vamos a por un café que siempre viene bien.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>11</wp:post_id>
+		<wp:post_date><![CDATA[2010-11-13 19:31:02]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2010-11-13 19:31:02]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[entorno-de-ruby-on-rails]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="rubyonrails"><![CDATA[Ruby on Rails]]></category>
+		<category domain="post_tag" nicename="rubyonrails"><![CDATA[Ruby on Rails]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Entorno de Ruby on Rails - Parte 2</title>
+		<link>http://aguasnegras.es/?p=15</link>
+		<pubDate>Sat, 13 Nov 2010 21:17:46 +0000</pubDate>
+		<dc:creator><![CDATA[agustinventura]]></dc:creator>
+		<guid isPermaLink="false">http://aguasnegras.es/?p=15</guid>
+		<description></description>
+		<content:encoded><![CDATA[Bazinga! Eso era, por fín:
+<pre>case@aesir:~/.rvm/usr/lib$ gem update --system
+Updating RubyGems
+Nothing to update</pre>
+Se vuelve a ejecutar el rvm --create y el --default y seguimos adelante, ahora a instalar rails con gem.
+<pre>gem install rails --version 3.0.1</pre>
+Muy bien, creo el directorio de proyecto y
+<pre>rails new fist_app</pre>
+Ya está creada, repaso los directorios y algún fichero de configuración según el tutorial e instalo los gems con bundle tal y como se especifica.
+<pre>rails server</pre>
+Y ahí esta, funcionando sin problemas. Pasamos a recapitular.
+<ul>
+	<li>Efectivamente, las herramientas son útiles y potentes, parece que se está pensando en todo.</li>
+	<li>La estructura de directorios parece también clara y estándar.</li>
+	<li>El uso de git y el incluir una carpeta tests por defecto, parece que sigue metodologías modernas, o mejor dicho, te guía al uso de las mismas.</li>
+	<li>El que haya una y solo una herramienta para cada cosa, no tienes que aprender a hacer lo mismo de 4 formas distintas.</li>
+</ul>
+Y poco más, de momento ya esta bien, mañana más y mejor.
+
+Vamos a descogelar sushi pa la cena.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>15</wp:post_id>
+		<wp:post_date><![CDATA[2010-11-13 21:17:46]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2010-11-13 21:17:46]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[entorno-de-ruby-on-rails-parte-2]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="programacion"><![CDATA[Programación]]></category>
+		<category domain="category" nicename="rubyonrails"><![CDATA[Ruby on Rails]]></category>
+		<category domain="post_tag" nicename="rubyonrails"><![CDATA[Ruby on Rails]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:comment>
+			<wp:comment_id>2</wp:comment_id>
+			<wp:comment_author><![CDATA[Aprendiendo Ruby on Rails &#8211; Resumen Capítulo Uno | AguasNegras]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[]]></wp:comment_author_email>
+			<wp:comment_author_url>http://aguasnegras.es/?p=34</wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[72.52.140.243]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2010-11-21 11:39:10]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2010-11-21 11:39:10]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[[...] Instalación de Rails 3 en sí, aquí [...] ]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[pingback]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+		</wp:comment>
+	</item>
+	<item>
+		<title>JUnit 4 y DataSources</title>
+		<link>http://aguasnegras.es/?p=22</link>
+		<pubDate>Sat, 20 Nov 2010 11:08:36 +0000</pubDate>
+		<dc:creator><![CDATA[agustinventura]]></dc:creator>
+		<guid isPermaLink="false">http://aguasnegras.es/?p=22</guid>
+		<description></description>
+		<content:encoded><![CDATA[Cuando desarrollo aplicaciones web (y tengo tiempo) me gusta seguir una variante propia de <a title="Test Driven Development" href="http://en.wikipedia.org/wiki/Test-driven_development" target="_blank">TDD</a>. Básicamente trato de ser exhaustivo con las pruebas y en este sentido JUnit es lo suyo, diseño el DAO y le hago pruebas unitarias, diseño la capa de servicios y le hago pruebas unitarias, es más, si tengo tiempo hago pruebas unitarias sobre las mismas entidades.
+
+A las malas malas, JUnit me sirve para probar la funcionalidad de la aplicación antes de hacer la interfaz de usuario.
+
+Últimamente trabajo siempre con Spring o JPA, por lo que los accesos a base de datos son a través de un DataSource, bien gestionado por Spring, bien gestionado por JPA.
+
+El caso es que para las pruebas en general, en vez de andar creando las conexiones a base de datos aparte y pasarlas a los DAO, mola crear un DataSource y publicarlo por JNDI, así nunca hay que volver a tocar nada.
+
+Tras investigar algo me encuentro que esto no es algo que este muy trillado, así que nada, manos a la obra. Lo que hago es definir un método @BeforeClass para que me cree el DataSource y me lo publique en el contexto JNDI antes de que se ejecute ninguna prueba.
+
+El código es bastante sencillo y autoexplicativo, para que funcione, es necesario el naming-commons.jar, naming-factory.jar y el naming-resources.jar, se encuentra normalmente en cualquier tomcat en $CATALINA_HOME/common/lib.
+<pre>public class DataBaseTest {
+
+	@BeforeClass
+	public static void setDataSource() {
+		try {
+			// Create initial context
+			System.setProperty(Context.INITIAL_CONTEXT_FACTORY,
+					"org.apache.naming.java.javaURLContextFactory");
+			System.setProperty(Context.URL_PKG_PREFIXES, "org.apache.naming");
+			InitialContext ic = new InitialContext();
+			ic.createSubcontext("jdbc");
+
+			// Construct DataSource
+			OracleConnectionPoolDataSource ds = new OracleConnectionPoolDataSource();
+			ds.setURL("jdbc:oracle:thin:@server:port:SID");
+			ds.setUser("user");
+			ds.setPassword("password");
+
+			ic.bind("jdbc/ds", ds);
+		} catch (NamingException ex) {
+			Logger.getLogger(DataBaseTest.class.getName()).log(
+					Level.SEVERE, null, ex);
+		} catch (SQLException e) {
+			Logger.getLogger(DataBaseTest.class.getName()).log(
+					Level.SEVERE, null, e);
+		}
+	}
+
+	public DataBaseTest() {
+		super();
+	}
+
+}</pre>
+Y eso es todo, para usar exactamente esta implementación también es conveniente tener log4j y el ojdbc14.jar.
+
+Referencias:
+<ol>
+	<li><a href="http://blogs.sun.com/randystuph/entry/injecting_jndi_datasources_for_junit">http://blogs.sun.com/randystuph/entry/injecting_jndi_datasources_for_junit</a></li>
+	<li><a href="http://www.coderanch.com/howto/java/CodeBarnLibrariesAndFrameworks">http://www.coderanch.com/how-to/java/CodeBarnLibrariesAndFrameworks</a></li>
+</ol>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>22</wp:post_id>
+		<wp:post_date><![CDATA[2010-11-20 11:08:36]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2010-11-20 11:08:36]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[junit-4-y-datasources]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="java"><![CDATA[Java]]></category>
+		<category domain="post_tag" nicename="java"><![CDATA[Java]]></category>
+		<category domain="post_tag" nicename="junit"><![CDATA[JUnit]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Optimización de Bases de Datos</title>
+		<link>http://aguasnegras.es/?p=46</link>
+		<pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[agustinventura]]></dc:creator>
+		<guid isPermaLink="false">http://aguasnegras.es/?p=46</guid>
+		<description></description>
+		<content:encoded><![CDATA[http://stackoverflow.com/questions/621884/database-development-mistakes-made-by-application-developers]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>46</wp:post_id>
+		<wp:post_date><![CDATA[2010-11-24 15:40:14]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[]]></wp:post_name>
+		<wp:status><![CDATA[draft]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="programacion"><![CDATA[Programación]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Logging en Java con SLF4J y Log4j2</title>
+		<link>http://aguasnegras.es/?p=544</link>
+		<pubDate>Mon, 02 Sep 2013 15:47:14 +0000</pubDate>
+		<dc:creator><![CDATA[agustinventura]]></dc:creator>
+		<guid isPermaLink="false">http://aguasnegras.es/?p=544</guid>
+		<description></description>
+		<content:encoded><![CDATA[En este artículo se hace una breve introducción a la generación de logs en Java usando SLF4J y Log4j2, así como un breve repaso de las mejores prácticas relativas.
+<h1>Introducción</h1>
+En Java se da una circunstancia muy extraña, siendo el logging tan importante como es, no hay una buena solución integrada en el framework como tal. Es cierto que existe la <a title="Java Logging Framework en Wikipedia" href="http://en.wikipedia.org/wiki/Java_logging_framework" target="_blank">Java Logging API o Java Logging Framework</a>, pero fue una adición bastante a posteriori (en concreto, se añadió en el 2002, en la versión 1.4 del JDK). Para cuando esta API salió como parte del JDK ya teníamos un "estándar" de facto, <a title="Log4j 1.2" href="http://logging.apache.org/log4j/1.2/" target="_blank">Log4j</a>, que fue creado en el 1999. Mientras tanto, y haciendo honor a aquella vieja <a title="XKCD - Standards" href="http://xkcd.com/927/" target="_blank">tira de XKCD</a>, seguían saliendo frameworks de loggings: <a title="Logback" href="http://logback.qos.ch/" target="_blank">logback</a>, <a title="commons-logging" href="http://commons.apache.org/proper/commons-logging/" target="_blank">commons-logging</a>, <a title="SLF4J" href="http://www.slf4j.org/" target="_blank">slf4j</a> y otros tipos de soluciones a cada cual más exótica. En <a title="The Logging Mess" href="http://techblog.bozho.net/?p=503" target="_blank">este artículo</a> se hace un repaso bastante completo de la historia del desaguisado.
+A verano de 2013, la  situación no ha mejorado, tal y como recoge una reciente <a title="State of Logging in Java 2013" href="http://zeroturnaround.com/rebellabs/the-state-of-logging-in-java-2013/" target="_blank">encuesta de ZeroTurnAround</a>. Si acaso se clarifican dos tendencias:
+<ol>
+	<li>En general, se suele usar una fachada de abstracción sobre el sistema de logs como puede ser SLF4J o commons-logging. Entiendo que ésto es debido a que muchas organizaciones imponen el uso de un framework de logging en concreto y mediante esta indirección ganas flexibilidad.</li>
+	<li>Log4J sigue siendo 14 años después el framework de logging más usado. Si eso no es un estándar de facto...</li>
+</ol>
+Por tanto, parece razonable aplicar la filosofía de fachada de logging + framework de logging para el desarrollo de un nuevo producto. En cuanto a fachada de logging se usará SLF4J y como framework de logging se explicará el uso de Log4j2. ¿Por qué el 2 y no el 1? Pues básicamente por velocidad. El logging es una actividad que realmente es accesoria, por tanto no debería consumir recursos del sistema apenas, la página de Log4j2 explica que esta es una de las motivaciones tras la versión 2 del framework, y <a title="Log4j2 Performance close to insane" href="http://www.grobmeier.de/log4j-2-performance-close-to-insane-20072013.html#.UiMaLt9wB2N" target="_blank">este artículo</a> confirma su velocidad. Sin embargo hay que tener en cuenta que Log4j2 esta actualmente en beta 8, pero dado que vamos a usar SLF4J se puede sustituir por su versión 1 o por logback o como se desee.
+Otro aspecto a considerar a la hora de usar la versión 2 de log4j es que cuando se usa Maven, el log4j 1.2.x incluye varias dependencias que lo más normal es que no se usen, como javax.mail, geronimo-jms, etc...
+<h1>Configuración</h1>
+La configuración en un proyecto con Maven es tan sencilla como añadir las siguientes dependencias al pom.xml:
+<pre lang="xml">
+<!-- slf4j -->
+<dependency>
+	<groupId>org.slf4j</groupId>
+	<artifactId>slf4j-api</artifactId>
+	<version>1.7.5</version>
+</dependency>
+<!-- log4j2 -->
+<dependency>
+	<groupId>org.apache.logging.log4j</groupId>
+	<artifactId>log4j-api</artifactId>
+	<version>2.0-beta8</version>
+</dependency>
+<dependency>
+	<groupId>org.apache.logging.log4j</groupId>
+	<artifactId>log4j-core</artifactId>
+	<version>2.0-beta8</version>
+</dependency>
+<dependency>
+	<groupId>org.apache.logging.log4j</groupId>
+	<artifactId>log4j-slf4j-impl</artifactId>
+	<version>2.0-beta8</version>
+</dependency>
+</pre>
+La primera dependencia es la api de SLF4J, que realmente es la que se utilizará en la aplicación para escribir los mensajes de log. A continuación esta la API y el Core de Log4j2 y por último el puente entre SLF4J y Log4j2. Ya que SLF4J es una fachada de logging, el proyecto incluye varios puentes para trabajar con los frameworks más comunes, sin embargo, como Log4j2 es un proyecto nuevo, es éste el que incluye el puente para SLF4J.
+<h1>Uso</h1>
+El uso de SLF4J es bastante sencillo, basta con instanciar el objeto de logging, el logger:
+<pre lang="java">private static Logger logger = LoggerFactory.getLogger(Logging.class);</pre>
+Esta variable es privada para evitar que otras clases puedan usarla, porque en ese caso parecería que el error se ha producido en nuestra clase Logging, además es static para que tan solo haya una instancia del logger sin importar las instancias que haya de la clase (es decir, es singleton). Se puede usar también una instancia normal, cada aproximación tiene sus pros y sus contras como se discute <a title="Static vs. Instance loggers" href="http://www.slf4j.org/faq.html#declared_static">aquí</a>.
+En cuanto al uso del logger es muy sencillo:
+<pre lang="java">public static void main (String... args) {
+	logger.info("Starting application");
+	logger.debug("Loading Lannister house");
+	House lannister = new House("Lannister");
+	logger.debug("Invoking Clegane bannerman");
+	lannister.invokeBannerMan("Clegane");
+	logger.debug("Invoking erroneous bannerman");
+	lannister.invokeBannerMan(null);
+	logger.info("Ended application");
+}</pre>
+En este ejemplo, se crea una Casa llamada Lannister y se invoca a dos banderizos, uno llamado Clegane y otroal que por error se pasa null como nombre.
+El resultado de ejecutar este programa es el siguiente:
+<pre>14:21:23.629 [main] ERROR es.aguasnegras.logging.model.House - Error loading house Lannister bannerman: bannerman name can't be empty
+Exception in thread "main" java.lang.IllegalStateException: Cant invoke bannerman without name
+	at es.aguasnegras.logging.model.House.invokeBannerMan(House.java:44)
+	at es.aguasnegras.logging.Logging.main(Logging.java:20)</pre>
+La ejecución de la aplicación falla al invocar el banderizo con null (normal)
+Como se ve la invocación al logger es en todo caso la misma, variando solo según el nivel de importancia del mensaje de error. En total en SLF4J vienen definidos los siguientes niveles de log:
+<ol>
+	<li> Error: Ocurrió un error en la aplicación.</li>
+	<li>Warn: Se ha dado una circunstancia de posible error.</li>
+	<li>Info: Información sobre la ejecución de la aplicación.</li>
+	<li>Debug: Información importante para debuggear la aplicación.</li>
+	<li>Trace: Información de traza sobre la ejecución de la aplicación.</li>
+</ol>
+En otros frameworks existe un nivel adicional de log: Fatal, pero SLF4J no lo recoge, he <a title="SLF4J y nivel de log Fatal" href="http://www.slf4j.org/faq.html#fatal">aquí</a> la explicación. Yo personalmente creo que puedo vivir sin ello.
+El objeto de cualquier framework de logging es que podamos configurar fácilmente cuales de estos mensajes se mostrarán según el entorno. Lo más normal es que en desarrollo deseemos mostrar los mensajes de debug y superiores, mientras que en producción se establezca el nivel a info (o incluso a error). Ahora bien, si hay un error en producción, lo más interesante es ajustar directamente el nivel de log a trace y así dispondríamos de toda la información relevante.
+Sin embargo, en el ejemplo pese a tener invocaciones a debug, a info y a trace, tan solo sale el mensaje relativo al error (que además se registra en la clase House). Esto es porque aún no hemos definido la configuración de los mensajes de log y por defecto log4j2 tan solo recoge los mensajes con nivel Error.
+<h1>Configuración de Log4j2</h1>
+En primer lugar, hay que decir que la configuración de log4j2 se realiza bien mediante un archivo xml, bien mediante un archivo json. En log4j 1.2 se podía configurar también mediante un archivo .properties, como a mí nunca me gustó esa opción (la veía confusa), agradezco que la hayan quitado.
+Lo primero es crear en main/resources un fichero log4j2.xml (tal y como se explica <a title="Configuración de Log4j2" href="http://logging.apache.org/log4j/2.x/manual/configuration.html#AutomaticConfiguration">aquí</a>), una vez creado, se completa tal que así:
+<pre lang="xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="WARN">
+  <appenders>
+    <Console name="Console" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+    </Console>
+  </appenders>
+  <loggers>
+    <root level="trace">
+      <appender-ref ref="Console"/>
+    </root>
+  </loggers>
+</configuration>
+</pre>
+El archivo empieza con el elemento <em>configuration</em> que tiene un atributo <em>status</em>, ese atributo significa el nivel de log de error que quiero aplicar al mismo log4j, a warn esta bien.
+A continuación defino un <em>appender</em>. Se puede pensar un appender es un destino de los mensajes de log, se puede tener un appender para presentar por consola, otro para guardar en archivo, otro para enviar por email o combinación de todos los anteriores. <a title="Appenders de Log4j2" href="http://logging.apache.org/log4j/2.x/manual/layouts.html">Aquí</a> se pueden consultar todos los appenders que hay.
+A su vez un appender tiene un <em>layout</em> que no es más que la forma de darle formato al mensaje de log: bien siguiendo un patrón, bien en html, etc... de nuevo hay una extensa <a title="Appenders de Log4j2" href="http://logging.apache.org/log4j/2.x/manual/layouts.html">lista</a>.
+Y por último estan los <em>logger</em> como tal. Los loggers tienen una particularidad, y es que existe un logger "padre" del que heredan todos los existentes: root, después de él se podrán crear los que sean oportunos, pero al menos siempre existirá root. Un logger tiene un nivel (que es el nivel mínimo de log cuyos mensajes se mostrarán) y una lista de appenders que se utilizarán para mostrar los mensajes.
+De momento solo tengo configurado root y con nivel <em>trace</em> con lo que se mostrarán todos los mensajes que se generen. Tal que así:
+<pre>
+17:02:03.721 [main] INFO  es.aguasnegras.logging.Logging - Starting application
+17:02:03.723 [main] DEBUG es.aguasnegras.logging.Logging - Loading Lannister house
+17:02:03.742 [main] TRACE es.aguasnegras.logging.model.House - Loaded house Lannister without bannermen
+17:02:03.742 [main] DEBUG es.aguasnegras.logging.Logging - Invoking Clegane bannerman
+17:02:03.763 [main] TRACE es.aguasnegras.logging.model.BannerMan - Loaded bannerman Clegane with house Lannister
+17:02:03.763 [main] TRACE es.aguasnegras.logging.model.House - Adding bannerman Clegane to house Lannister
+17:02:03.763 [main] DEBUG es.aguasnegras.logging.Logging - Invoking erroneous bannerman
+17:02:03.763 [main] ERROR es.aguasnegras.logging.model.House - Error loading house Lannister bannerman: bannerman name can't be empty
+Exception in thread "main" java.lang.IllegalStateException: Cant invoke bannerman without name
+	at es.aguasnegras.logging.model.House.invokeBannerMan(House.java:44)
+	at es.aguasnegras.logging.Logging.main(Logging.java:20)
+</pre>
+Y ahora se puede empezar a modificar la configuración. Por ejemplo, si quiero que aparezcan todos los mensajes de error para Logging pero para las demás clases que solo aparezcan de info para arriba, puedo añadir este logger a la configuración:
+<pre lang="xml">
+<loggers>
+	<root level="trace">
+		<appender-ref ref="Console" />
+	</root>
+	<logger name="es.aguasnegras.logging.model" level="info" additivity="false">
+		<appender-ref ref="Console" />
+	</logger>
+</loggers>
+</pre>
+Estoy creando un logger nuevo para el paquete <em>es.aguasnegras.logging.model</em> que recogerá todos los mensajes de información y los mostrará por el appender <em>Console</em>. El atributo <em>additivity</em> a false indica que los mensajes que se muestren por este logger no se deberán mostrar por root (si no, saldrían duplicados).
+Es importante tener en cuenta que el nivel de log de root es el mínimo para todo el sistema. Es decir, si yo arriba cambio el nivel de root por <em>error</em> y el de model por <em>trace</em> tan solo se mostrarán los mensajes de error, ya que el resto no se evaluarán.
+Si por ejemplo ahora quisiera que si se mostraran todos los mensajes de log de la clase BannerMan, podría hacer así:
+<pre lang="xml">
+<root level="trace">
+	<appender-ref ref="Console" />
+</root>
+<logger name="es.aguasnegras.logging.model" level="info" additivity="false">
+	<appender-ref ref="Console" />
+</logger>
+<logger name="es.aguasnegras.logging.model.BannerMan" level="trace" additivity="false">
+	<appender-ref ref="Console" />
+</logger>
+</pre>
+Y así, sucesivamente. Aquí, por mantener el ejemplo sencillo, solo he utilizado un appender, pero cada logger podría usar un appender distinto, por ejemplo, root podría utilizar la consola, pero model podría usar un archivo.
+<h1>Uso Eficiente de la API</h1>
+Arriba comentaba que un framework de logging, sobre todo ha de ser rápido y no consumir ciclos de CPU, ni memoria, etc... En general, para evitar el consumo "tonto" de recursos en muchos sitios recomiendan hacer lo siguiente:
+<pre lang="java">
+if (logger.isTraceEnabled()) {
+	logger.trace("Adding bannerman " + bannerManName + " to house " + name);
+}
+</pre>
+Este código, desde mi punto de vista tiene varios inconvenientes:
+<ol>
+<li>En el caso mejor (trace no esta habilitado), se ejecuta una instrucción</li>
+<li>En el caso peor (trace esta habilitado), se ejecutan dos instrucciones y además se construye la cadena con el mensaje</li>
+<li>Además, para cumplir con DRY, nos veremos tentados de crear una fachada de logging sobre la fachada de logging (WTF!)</li>
+</ol>
+Para evitar todo esto, en SLF4J <a title="Forma más rápida de logar" href="http://www.slf4j.org/faq.html#logging_performance">recomiendan esta forma de logar</a>:
+<pre lang="java">
+logger.trace("Adding bannerman {} to house {}", bannerManName, name);
+</pre>
+Así de sencillo y de fácil. Por supuesto el método acepta múltiples parámetros y si se pasa un objeto se invoca el toString.
+<h1>Código</h1>
+
+Pues con esto se acaba este pequeño repaso de lo fundamental sobre SLF4J y Log4j2, el código, en github (para variar).
+
+[caption id="attachment_255" align="aligncenter" width="115" caption="Repositorio de JustPlay en GitHub"]<a href="https://github.com/agustinventura/logging"><img class="size-full wp-image-255" title="Ejemplos de Logging en GitHub" src="http://aguasnegras.es/blog/wp-content/uploads/2011/08/github_icon.png" alt="JustPlay en GitHub" width="115" height="115" /></a>[/caption]]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>544</wp:post_id>
+		<wp:post_date><![CDATA[2013-09-02 16:47:14]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2013-09-02 15:47:14]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[logging-en-java-con-slf4j-y-log4j2]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="java"><![CDATA[Java]]></category>
+		<category domain="post_tag" nicename="java"><![CDATA[Java]]></category>
+		<category domain="post_tag" nicename="log4j"><![CDATA[log4j]]></category>
+		<category domain="post_tag" nicename="logging"><![CDATA[logging]]></category>
+		<category domain="category" nicename="programacion"><![CDATA[Programación]]></category>
+		<category domain="post_tag" nicename="slf4j"><![CDATA[slf4j]]></category>
+		<category domain="category" nicename="herramientas"><![CDATA[Tools of the Trade]]></category>
+		<category domain="post_tag" nicename="tutorial"><![CDATA[tutorial]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_linkdex]]></wp:meta_key>
+			<wp:meta_value><![CDATA[76]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Logging en Java con SLF4J y Log4j2]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Logging en Java con SLF4J y Log4j2]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wpas_done_all]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+</channel>
+</rss>

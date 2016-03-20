@@ -84,7 +84,7 @@ public class Wp2JBakeTests {
 
     @Test
     public void buildWithValidParameters() {
-        sut = new Wp2JBake("pom.xml", "destination");
+        sut = new Wp2JBake("pom.xml", "src/test/destination");
         File destination = new File("destination");
         destination.delete();
     }

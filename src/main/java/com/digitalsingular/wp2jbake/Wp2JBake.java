@@ -10,7 +10,7 @@ public class Wp2JBake {
         if (StringUtils.isEmpty(origin) || !existsOrigin(origin)) {
             throw new IllegalArgumentException("Origin is not a valid file");
         }
-        if (StringUtils.isEmpty(destination) || isWritable(destination)) {
+        if (StringUtils.isEmpty(destination) || !isWritable(destination)) {
             throw new IllegalArgumentException("Destination is not a valid folder");
         }
     }
