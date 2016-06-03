@@ -1,90 +1,68 @@
 package com.digitalsingular.wp2jbake;
 
 
-import org.junit.Rule;
 import org.junit.Test;
-import org.junit.rules.ExpectedException;
 
 import java.io.File;
+import java.util.Set;
+
+import static org.hamcrest.CoreMatchers.not;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.empty;
+import static org.hamcrest.core.Is.is;
 
 
 public class Wp2JBakeTests {
 
-    @Rule
-    public ExpectedException thrown = ExpectedException.none();
-
     private Wp2JBake sut;
 
-    @Test
+    @Test(expected = IllegalArgumentException.class)
     public void buildWithoutParameters() {
-        thrown.expect(IllegalArgumentException.class);
-        thrown.expectMessage("Origin");
         sut = new Wp2JBake(null, null);
     }
 
-    @Test
+    @Test(expected = IllegalArgumentException.class)
     public void buildWithoutOrigin() {
-        thrown.expect(IllegalArgumentException.class);
-        thrown.expectMessage("Origin");
         sut = new Wp2JBake(null, "foo");
 
     }
 
-    @Test
-    public void buildWithoutDestination() {
-        thrown.expect(IllegalArgumentException.class);
-        thrown.expectMessage("Destination");
-        sut = new Wp2JBake("pom.xml", null);
-
-    }
-
-    @Test
+    @Test(expected = IllegalArgumentException.class)
     public void buildWithEmptyOrigin() {
-        thrown.expect(IllegalArgumentException.class);
-        thrown.expectMessage("Origin");
         sut = new Wp2JBake("", "");
     }
 
-    @Test
-    public void buildWithEmptyDestination() {
-        thrown.expect(IllegalArgumentException.class);
-        thrown.expectMessage("Destination");
-        sut = new Wp2JBake("pom.xml", "");
-
-    }
-
-    @Test
+    @Test(expected = IllegalArgumentException.class)
     public void buildWithInvalidOrigin() {
-        thrown.expect(IllegalArgumentException.class);
-        thrown.expectMessage("Origin");
         sut = new Wp2JBake("foo", "");
     }
 
     @Test
-    public void buildWithNonWritableDestination() {
-        File destination = new File("destination");
-        destination.mkdir();
-        destination.deleteOnExit();
-        destination.setReadOnly();
-        thrown.expect(IllegalArgumentException.class);
-        thrown.expectMessage("Destination");
-        sut = new Wp2JBake("pom.xml", destination.getAbsolutePath());
-    }
-
-    @Test
-    public void buildWithNonWritableDestinationParent() {
-        File destinationParent = new File("destinationParent");
-        destinationParent.mkdir();
-        destinationParent.deleteOnExit();
-        destinationParent.setReadOnly();
-        thrown.expect(IllegalArgumentException.class);
-        thrown.expectMessage("Destination");
-        sut = new Wp2JBake("pom.xml", destinationParent.getAbsolutePath() + File.separator + "destination");
-    }
-
-    @Test
     public void buildWithValidParameters() {
-        sut = new Wp2JBake("pom.xml", "src/test/destination");
+        sut = new Wp2JBake("src/test/resources/wp-source.xml", "src/test/destination");
+    }
+
+    @Test
+    public void processEmptyXML() {
+        sut = new Wp2JBake("src/test/resources/empty.xml", "src/test/destination");
+        Set<File> markdowns = sut.generateJBakeMarkdown();
+        assertThat(markdowns, is(empty()));
+    }
+
+    @Test(expected = IllegalStateException.class)
+    public void processInvalidXML() {
+        sut = new Wp2JBake("src/test/resources/invalid.xml", "src/test/destination");
+        Set<File> markdowns = sut.generateJBakeMarkdown();
+    }
+
+    @Test
+    public void processXML() {
+        sut = new Wp2JBake("src/test/resources/wp-source.xml", "src/test/destination");
+        Set<File> markdowns = sut.generateJBakeMarkdown();
+        assertThat(markdowns, is(not(empty())));
+        for (File markdown: markdowns) {
+            assertThat(markdown.exists(), is(true));
+        }
         File destination = new File("destination");
         destination.delete();
     }
