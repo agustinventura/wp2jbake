@@ -42,11 +42,10 @@ public class Wp2JBakeTests {
         sut = new Wp2JBake("src/test/resources/wp-source.xml", "src/test/destination");
     }
 
-    @Test
+    @Test(expected = IllegalStateException.class)
     public void processEmptyXML() {
         sut = new Wp2JBake("src/test/resources/empty.xml", "src/test/destination");
         Set<File> markdowns = sut.generateJBakeMarkdown();
-        assertThat(markdowns, is(empty()));
     }
 
     @Test(expected = IllegalStateException.class)

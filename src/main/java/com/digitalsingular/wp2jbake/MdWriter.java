@@ -39,6 +39,6 @@ public class MdWriter {
     }
 
     public File write(Post post) {
-        return null;
+        return new File(post.getTitle());
     }
 }
